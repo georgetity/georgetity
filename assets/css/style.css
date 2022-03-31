@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background: url("../images/home.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%; */
+}
+.container-body {
+    margin: 50px;
+}
+.row.section {
+    padding: 25px 0;
+}
+/* .areas-interest {
+    background: url("../images/interests.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+} */
+.profile-pic {
+    background: url("../images/profile\ pic.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 50%;
+}
+.quote-section {
+    text-align: center;
+}
+.m-auto {
+    margin: auto;
+}
+.section-border{
+    border: 2px solid red;
+    width: 200px;
+    margin: 50px auto;
+}
+.heading-border {
+    border-bottom: 2px solid rgb(13 110 253);
+    border-width: 5px;
+    width: 70px;
+    margin: 30px 0;
+}
+.progress {
+    margin: 10px 0;
+    height: 5px;
+}
+.header {
+    margin: 20px 0;
+}
+li.year {
+    padding: 10px 0;
+    border-left: 1px solid orangered;
+    list-style: none;
+    font-weight: 500;
+}
+span.arrow {
+    color: cadetblue;
+}
+.year li {
+    margin: 0 40px;
+    list-style-type: square;
+}
+.responsibilities-section li{
+    padding: 10px;
+}
+.common-bg {
+    background-color: rgb(169 169 169 / 16%);
+}
